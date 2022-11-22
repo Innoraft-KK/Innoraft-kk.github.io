@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jquery4.css" class="css">
+    <title>JQuery4</title>
+</head>
+<body>
+    <main>
+        <div class="popup">
+            <center><h1>I am a popup</h1></center>
+            <h1 id="close" style="position:absolute; right:24px; top:10px">X</h1>
+        </div>
+        <div class="Header"><center><h1>Header</h1></center></div>
+        <div style="display: flex;flex-direction: row;">
+        <div class="Sidebar"><center><h1 id="side-bar">Sidebar</h1></center></div>
+            <div class="dis-inline" style="width:59%;">
+                <div class="MainContent"><center><h1>MainContent</h1></center></div>
+                <div class="ExtraContent"><center><h1>ExtraContent</h1></center></div>
+            </div>
+        </div>
+        <div class="Footer"><center><h1>Footer</h1></center></div>
+    </main>
+</body>
+<script src="./JS/jquery-3.6.1.min.js"></script>
+<script>
+    $(".popup").hide();
+    $(".Footer").click(function(){
+        $(".popup").show();
+    });
+    $("#close").click(function(){
+        $(".popup").hide();
+    });
+    $(".Header").click(function(){
+        $(".Header").css("background-color","red");
+    });
+    $(".Sidebar").click(function(){
+        $("#side-bar").text("Leftbar");
+    });
+    $(".ExtraContent").click(function(){
+        $(".MainContent").fadeOut();
+    })
+</script>
+</html>

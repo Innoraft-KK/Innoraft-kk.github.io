@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+}
+
+body{
+   background: #e31d1a;
+}
+.dis-inline
+{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 35.5vh;
+    background-color: rgb(162, 16, 16);
+    width: 31.8%;
+}
+.start{
+    min-height: 50vh;
+    word-wrap: normal;
+    width: 50vw;
+    margin: 57px 20px 0px 64px;
+}
+img{
+    position: absolute;
+    top: 50px;
+    left: 65vw;
+}

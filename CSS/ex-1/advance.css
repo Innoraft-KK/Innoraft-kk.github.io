@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+div nav{
+    z-index: 10;
+}
+.flexme{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links{
+    max-height: 166px;
+    list-style-type: none;
+    margin-left: 450px;
+    padding-left: 50px;
+}
+
+nav ul li{
+    margin: 0px 25px;
+} 
+.centerText{
+    font-size:4vw;
+    word-wrap: normal;
+    padding-top: 5vh;
+}
+button{
+    padding: 7px;
+    border-radius: 20px;
+    background:none;
+    margin: 35px;
+}
+.purple{
+    min-height:90.1vh;
+    /* background-image: url('./images/img-1.jpg'); */
+    color: white;
+   /*  background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgba(58, 55, 108, 0.7);
+    position: relative;
+}
+.bg-img{
+    
+    z-index:-1;
+    position: absolute;
+    object-fit: cover;
+    left:0;
+    width: 98.7vw;
+    height: 90.1vh;
+}
+.white{
+    min-height:100vh;
+    background-color:white;
+    color:  rgb(58, 55, 108);
+    padding-top: 15vh;
+}
+.secondWhite{
+    padding-top: 0;
+}
+.services{
+    list-style-type: none;
+}
+.services li{
+    width: 49vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10vh;
+}
+.design-option{
+    list-style: none;
+    padding:5vh 0vh;
+    width: 34vw;
+}
+.design-option li{
+    padding: 0 5vw 0 0;
+}
+.img-grid{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 30vh 30vh 30vh;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.skateboard{
+    height: 61.5vh;
+    width: 20vw;
+}
+.book{
+    height: 30vh;
+    width: 20vw;
+}
+.first-skate{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-column-end: 3;
+}
+.book-1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.book-2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.book-3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.book-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:3 ;
+    grid-row-end: 4;
+}
+.book-5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end: 4;
+}
+.second-skate{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-column-end: 4;
+}
+.achievment{
+    padding: 20vh 5vw;
+    color: white;
+    list-style: none;
+}
+.ach-icon{
+    height: 50px;
+    width: 50px;
+}
+.pricing{
+    padding: 20vh 5vw;
+    list-style: none;
+   /* padding: 10vh;*/
+}
+.pricing li{
+    margin:0px 107px;
+}
+.testimonial img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.test-flex{
+    list-style: none;
+}
+.testimonial{
+    padding: 100px;
+}
+.lrarrow{
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    top: 10vh;
+}
+.blog-flex{
+    list-style: none;
+}
+.blog{
+    width: 25vw;
+}
+.footer{
+    background-color: #3a376c;
+    padding:0 10vw;
+    min-height: 50vh;
+    color: white;
+}
+.footer-list
+{
+    margin:0 5vw;
+    list-style-type: none;
+   
+}
+.footer-inline{
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: gold;
+    color: white;
+    border-color:white
+}
