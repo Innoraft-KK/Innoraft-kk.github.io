@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255, 77, 166);
+    margin-bottom: 15px;
+}
+.body1,.body2 {
+    height: 76vh;
+    background-color: rgb(223, 9,110);
+}
+.body2{
+    background-color: rgb(206, 4, 104);
+    width: 30%;
+    float: right;
+}
+.body1{
+    margin-right: 15px;
+    width: calc(100% - 30% - 15px);
+    float: left;
+}
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(128, 39, 85);
+    margin-top: 15px;
+    clear: both;
+    float: left;
+}
+
+.main{
+    height: 60%;
+    width: 100%;
+    font-size: 0;
+}
